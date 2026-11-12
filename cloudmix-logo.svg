@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bgGrad" x1="512" y1="48" x2="512" y2="976" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#217E86" />
+      <stop offset="28%" stop-color="#176168" />
+      <stop offset="66%" stop-color="#0E3B42" />
+      <stop offset="100%" stop-color="#082026" />
+    </linearGradient>
+
+    <radialGradient id="topDomeGlow" cx="512" cy="110" r="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7AF3F7" stop-opacity="0.26" />
+      <stop offset="55%" stop-color="#35A7B0" stop-opacity="0.07" />
+      <stop offset="100%" stop-color="#0E3B42" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="ambientCyan" cx="486" cy="548" r="275" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4CFFE8" stop-opacity="0.52" />
+      <stop offset="48%" stop-color="#29C9C2" stop-opacity="0.20" />
+      <stop offset="100%" stop-color="#124E55" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="ambientCoral" cx="566" cy="462" r="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF9B76" stop-opacity="0.46" />
+      <stop offset="52%" stop-color="#FF8563" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#124E55" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="squircleRim" x1="220" y1="56" x2="804" y2="968" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#9FF7FA" stop-opacity="0.62" />
+      <stop offset="35%" stop-color="#53B9C1" stop-opacity="0.30" />
+      <stop offset="75%" stop-color="#1F6970" stop-opacity="0.24" />
+      <stop offset="100%" stop-color="#3BA2AA" stop-opacity="0.38" />
+    </linearGradient>
+
+    <linearGradient id="cloudFrostFill" x1="512" y1="296" x2="512" y2="676" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#DCFAFC" stop-opacity="0.30" />
+      <stop offset="52%" stop-color="#A6E4E9" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#6CCAD3" stop-opacity="0.14" />
+    </linearGradient>
+
+    <linearGradient id="cloudRimGrad" x1="340" y1="296" x2="720" y2="676" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ECFFFF" stop-opacity="0.72" />
+      <stop offset="45%" stop-color="#B3F2F6" stop-opacity="0.44" />
+      <stop offset="100%" stop-color="#7BEAE5" stop-opacity="0.52" />
+    </linearGradient>
+
+    <linearGradient id="innerLobeFill" x1="420" y1="360" x2="520" y2="660" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E6FFFF" stop-opacity="0.20" />
+      <stop offset="100%" stop-color="#7EDCE2" stop-opacity="0.06" />
+    </linearGradient>
+
+    <radialGradient id="rightAquaTint" cx="685" cy="605" r="195" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7AF9EE" stop-opacity="0.40" />
+      <stop offset="65%" stop-color="#64D9DF" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#64D9DF" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="innerCoralGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFA582" stop-opacity="0.52" />
+      <stop offset="52%" stop-color="#FF8C69" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#FF8C69" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="overlapArcStroke1" x1="480" y1="296" x2="560" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ECFFFF" stop-opacity="0.50" />
+      <stop offset="62%" stop-color="#D4FAFC" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#D4FAFC" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="overlapArcStroke2" x1="650" y1="424" x2="650" y2="575" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#DCFFFF" stop-opacity="0.38" />
+      <stop offset="65%" stop-color="#AEF6F0" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#AEF6F0" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="innerLobeStroke" x1="420" y1="365" x2="420" y2="625" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ECFFFF" stop-opacity="0.24" />
+      <stop offset="75%" stop-color="#A8ECEF" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#A8ECEF" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="aquaCapsuleGrad" x1="452" y1="430" x2="668" y2="676" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#68FFEA" stop-opacity="0.62" />
+      <stop offset="55%" stop-color="#74F5E8" stop-opacity="0.76" />
+      <stop offset="100%" stop-color="#9AF8F2" stop-opacity="0.68" />
+    </linearGradient>
+
+    <linearGradient id="aquaCapsuleRim" x1="460" y1="420" x2="680" y2="676" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#CFFFF8" stop-opacity="0.58" />
+      <stop offset="65%" stop-color="#9CFBF0" stop-opacity="0.34" />
+      <stop offset="100%" stop-color="#7AECE4" stop-opacity="0.18" />
+    </linearGradient>
+
+    <linearGradient id="prismLeftGrad" x1="442" y1="382" x2="516" y2="602" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#AEFFF4" />
+      <stop offset="45%" stop-color="#58FFEA" />
+      <stop offset="100%" stop-color="#2CE0CF" />
+    </linearGradient>
+
+    <linearGradient id="prismTopGrad" x1="448" y1="398" x2="632" y2="496" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#D4FFF9" />
+      <stop offset="42%" stop-color="#FFE6D0" />
+      <stop offset="78%" stop-color="#FFAC86" />
+      <stop offset="100%" stop-color="#FF8964" />
+    </linearGradient>
+
+    <linearGradient id="prismBottomGrad" x1="566" y1="482" x2="458" y2="602" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF8D67" stop-opacity="0.96" />
+      <stop offset="38%" stop-color="#D7B3A8" stop-opacity="0.78" />
+      <stop offset="76%" stop-color="#66EDE0" stop-opacity="0.82" />
+      <stop offset="100%" stop-color="#3FE6D5" stop-opacity="0.92" />
+    </linearGradient>
+
+    <filter id="iconShadow" x="-8%" y="-8%" width="116%" height="118%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#031216" flood-opacity="0.40" />
+    </filter>
+
+    <filter id="cloudShadow" x="-15%" y="-15%" width="130%" height="135%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#04191E" flood-opacity="0.38" />
+    </filter>
+
+    <filter id="prismGlow" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="22" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <clipPath id="cloudClip">
+      <path d="M 316 676 A 116 116 0 0 1 302.15 444.83 A 126 126 0 0 1 462.73 347.47 A 146 146 0 0 1 719.1 425.78 A 126 126 0 1 1 698 676 L 316 676 Z" />
+    </clipPath>
+  </defs>
+  
+      <g filter="url(#iconShadow)">
+        <rect x="56" y="56" width="912" height="912" rx="208" fill="url(#bgGrad)" />
+        <rect x="56" y="56" width="912" height="912" rx="208" fill="url(#topDomeGlow)" />
+        <rect x="58" y="58" width="908" height="908" rx="206" fill="none" stroke="url(#squircleRim)" stroke-width="4" />
+      </g>
+    
+  
+    <g transform="translate(0, 8)">
+      <circle cx="486" cy="548" r="270" fill="url(#ambientCyan)" />
+      <circle cx="566" cy="462" r="205" fill="url(#ambientCoral)" />
+
+      <g filter="url(#cloudShadow)">
+        <path d="M 316 676 A 116 116 0 0 1 302.15 444.83 A 126 126 0 0 1 462.73 347.47 A 146 146 0 0 1 719.1 425.78 A 126 126 0 1 1 698 676 L 316 676 Z" fill="url(#cloudFrostFill)" />
+      </g>
+
+      <g clip-path="url(#cloudClip)">
+        <circle cx="696" cy="590" r="190" fill="url(#rightAquaTint)" />
+
+        <path
+          d="M 334 646 A 86 86 0 1 1 362 480 A 98 98 0 1 1 528 486 C 528 575, 445 646, 334 646 Z"
+          fill="url(#innerLobeFill)"
+          stroke="url(#innerLobeStroke)"
+          stroke-width="2"
+        />
+        <circle
+          cx="682"
+          cy="558"
+          r="92"
+          fill="url(#innerLobeFill)"
+          stroke="url(#innerLobeStroke)"
+          stroke-width="2"
+        />
+
+        <circle
+          cx="574"
+          cy="442"
+          r="146"
+          fill="#E8FFFF"
+          fill-opacity="0.05"
+          stroke="url(#overlapArcStroke1)"
+          stroke-width="2.4"
+        />
+        <circle
+          cx="698"
+          cy="550"
+          r="126"
+          fill="#9CFBF2"
+          fill-opacity="0.06"
+          stroke="url(#overlapArcStroke2)"
+          stroke-width="2.2"
+        />
+
+        <circle cx="542" cy="456" r="142" fill="url(#innerCoralGlow)" />
+
+        <path
+          d="M 442 382 L 638 492 C 696 524, 718 576, 704 624 C 692 658, 660 676, 616 676 L 512 676 C 472 676, 442 646, 442 606 Z"
+          fill="url(#aquaCapsuleGrad)"
+          stroke="url(#aquaCapsuleRim)"
+          stroke-width="2.2"
+        />
+      </g>
+
+      <path
+        d="M 316 676 A 116 116 0 0 1 302.15 444.83 A 126 126 0 0 1 462.73 347.47 A 146 146 0 0 1 719.1 425.78 A 126 126 0 1 1 698 676 L 316 676 Z"
+        fill="none"
+        stroke="url(#cloudRimGrad)"
+        stroke-width="3.2"
+        stroke-linejoin="round"
+      />
+
+      <g filter="url(#prismGlow)" opacity="0.55">
+        <polygon points="442,382 638,492 442,602" fill="#5FFFEA" />
+      </g>
+
+      <g>
+        <polygon points="442,382 516,492 442,602" fill="url(#prismLeftGrad)" />
+        <polygon points="442,382 638,492 516,492" fill="url(#prismTopGrad)" />
+        <polygon points="516,492 638,492 442,602" fill="url(#prismBottomGrad)" />
+
+        <line x1="442" y1="382" x2="516" y2="492" stroke="#EFFFFB" stroke-opacity="0.82" stroke-width="2.2" stroke-linecap="round" />
+        <line x1="516" y1="492" x2="638" y2="492" stroke="#FFE7D6" stroke-opacity="0.72" stroke-width="2.0" stroke-linecap="round" />
+        <line x1="442" y1="602" x2="516" y2="492" stroke="#9CFFF2" stroke-opacity="0.65" stroke-width="2.0" stroke-linecap="round" />
+
+        <polygon
+          points="442,382 638,492 442,602"
+          fill="none"
+          stroke="#ECFFFC"
+          stroke-opacity="0.76"
+          stroke-width="2.4"
+          stroke-linejoin="round"
+        />
+      </g>
+    </g>
+  
+</svg>
